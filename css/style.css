@@ -4,6 +4,11 @@
     font-family: "RobotoBlack";
     src: url(/storage/fonts/Roboto_Slab/static/RobotoSlab-Black.ttf);
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +16,7 @@
     text-decoration: none;
 }
 
-/* Primera Section */
+/* Primera Section - Contact Us */
 
 #first {
     width: 100vw;
@@ -91,6 +96,7 @@ header img {
 }
 
 .contactUs .right button {
+    cursor: pointer;
     border: 0;
     border-radius: 10px;
     display: flex;
@@ -108,3 +114,42 @@ header img {
     color: var(--color-secundary);
 }
 
+/* Segunda Section - About Us */
+
+#aboutUs {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secundary);
+    width: 100vw;
+    height: 900px;
+}
+
+.imagenAboutUs, .imagenAboutUs img {
+    width: 800px;
+    height: 700px;
+    object-fit: cover;
+}
+
+#aboutUs .right {
+    font-family: "RobotoBlack";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+}
+
+#aboutUs .right h2 {
+    color: var(--color-font);
+    font-size: 3.5em;
+}
+
+#aboutUs .right p {
+    color: var(--color-font);
+    font-size: 2em;
+}
+
+/* Tercera Section - Our Food Quality (pendiente) */
+
+/* Cuarta Section - Our Food Gallery */
