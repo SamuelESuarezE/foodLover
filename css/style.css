@@ -123,7 +123,7 @@ header img {
     align-items: center;
     background-color: var(--color-secundary);
     width: 100vw;
-    height: 900px;
+    height: 850px;
 }
 
 .imagenAboutUs, .imagenAboutUs img {
@@ -156,7 +156,7 @@ header img {
 
 #foodGallery {
     width: 100vw;
-    padding: 40px;
+    padding: 0px 40px 40px 40px;
     background-color: var(--color-secundary);
     font-family: "RobotoBlack";
     display: flex;
@@ -181,4 +181,41 @@ header img {
 
 #foodGallery .gallery img {
     height: 470px;
+}
+
+/* Quinta Section - Enjoy Our Food */
+
+#enjoyOurFood {
+    background-image: url("/storage/img/placeYourImageHereOur0.png");
+    width: 100vw;
+    height: 900PX;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enjoyOurFood .container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    font-family: "RobotoBlack";
+    border: 5px solid var(--color-primary);
+    color: var(--color-font);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    background-color: #17171ee9;
+}
+
+#enjoyOurFood h2 {
+    font-size: 3.5em;
+}
+
+#enjoyOurFood p {
+    font-size: 2em;
 }
