@@ -153,3 +153,32 @@ header img {
 /* Tercera Section - Our Food Quality (pendiente) */
 
 /* Cuarta Section - Our Food Gallery */
+
+#foodGallery {
+    width: 100vw;
+    padding: 40px;
+    background-color: var(--color-secundary);
+    font-family: "RobotoBlack";
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#foodGallery h2 {
+    color: var(--color-font);
+    font-size: 3.5em;
+}
+
+#foodGallery .gallery {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#foodGallery .gallery img {
+    height: 470px;
+}
