@@ -92,6 +92,7 @@ header img {
     color: var(--color-primary);
     font-size: 5em;
     width: 700px;
+    line-height: 75px;
 }
 
 .contactUs .right p {
@@ -159,17 +160,18 @@ header img {
 /* Tercera Section - Our Food Quality (pendiente) */
 
 #foodQuality {
+    position: relative;
     font-family: "RobotoBlack";
     display: flex;
     width: 100%;
-    height: 2500px;
+    height: 260vh;
     background-image: url("../storage/img/placeYourImageHereFood.png");
     background-size: cover;
 }
 
 .foodQualityText {
     width: 600px;
-    position: relative;
+    position: absolute;
     left: 200px;
     top: 400px;
 }
@@ -188,21 +190,20 @@ header img {
 #foodQuality img:nth-child(2){
     height: 900px;
     position: absolute;
-    top: 1900px;
     right: 0;
 }
 
 #foodQuality img:nth-child(3) {
     height: 1400px;
     position: absolute;
-    top: 2750px;
+    top: 850px;
     right: 0;
 }
 
 #foodQuality img:nth-child(4){
     height: 900px;
     position: absolute;
-    top: 3475px;
+    bottom: 50px;
     left: 0;
 }
 
