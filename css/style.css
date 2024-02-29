@@ -219,3 +219,52 @@ header img {
 #enjoyOurFood p {
     font-size: 2em;
 }
+
+/* Sexta Section - Our Menu */
+
+#ourMenu {
+    
+    width: 100vw;
+    height: 850px;
+    padding: 40px ;
+    background-color: var(--color-secundary);
+    font-family: "RobotoBlack";
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+#ourMenu h2 {
+    color: var(--color-font);
+    font-size: 3.5em;
+}
+
+#ourMenu h3 {
+    color: var(--color-primary);
+    font-size: 1.8em;
+}
+
+#ourMenu h4 {
+    color: var(--color-primary);
+    font-size: 1.6em;
+}
+
+#ourMenu p {
+    color: var(--color-font);
+    font-size: 1em;
+}
+
+
+#ourMenu .menu {
+    display: flex;
+    gap: 50px;
+}
+
+#ourMenu .product {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    width: 400px;
+}
