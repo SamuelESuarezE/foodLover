@@ -158,6 +158,55 @@ header img {
 
 /* Tercera Section - Our Food Quality (pendiente) */
 
+#foodQuality {
+    font-family: "RobotoBlack";
+    display: flex;
+    width: 100%;
+    height: 2500px;
+    background-image: url("../storage/img/placeYourImageHereFood.png");
+    background-size: cover;
+}
+
+.foodQualityText {
+    width: 600px;
+    position: relative;
+    left: 200px;
+    top: 400px;
+}
+
+.foodQualityText h2 {
+    color: var(--color-font);
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.foodQualityText p {
+    color: var(--color-font);
+    font-size: 2.5em;
+}
+
+#foodQuality img:nth-child(2){
+    height: 900px;
+    position: absolute;
+    top: 1900px;
+    right: 0;
+}
+
+#foodQuality img:nth-child(3) {
+    height: 1400px;
+    position: absolute;
+    top: 2750px;
+    right: 0;
+}
+
+#foodQuality img:nth-child(4){
+    height: 900px;
+    position: absolute;
+    top: 3475px;
+    left: 0;
+}
+
+
 /* Cuarta Section - Our Food Gallery */
 
 #foodGallery {
@@ -276,7 +325,7 @@ header img {
     flex-direction: column;
     gap: 20px;
     height: auto;
-    width: 400px;
+    width: 450px;
 }
 
 /* Footer */
@@ -292,11 +341,14 @@ footer {
 .footer-1 {
     display: flex;
     gap: 50px;
-    justify-content: center;
     align-items: center;
     width: 100vw;
     height: 55%;
     background-color: var(--color-primary);
+}
+
+.enjoyBest {
+    margin-left: 20px;
 }
 
 .footer-1 h2 {
@@ -313,7 +365,6 @@ footer {
 
 .footer-1 img {
     height: 550px;
-    border-radius: 100%;
 }
 
 .footer-2 {
