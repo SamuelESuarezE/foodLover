@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "RobotoBlack";
-    src: url(/storage/fonts/Roboto_Slab/static/RobotoSlab-Black.ttf);
+    src: url("../storage/fonts/Roboto_Slab/static/RobotoSlab-Black.ttf");
 }
 
 html {
@@ -21,7 +21,7 @@ html {
 #first {
     width: 100vw;
     height: 100vh;
-    background-image: url("/storage/img/placeYourImageHere0.png");
+    background-image: url("../storage/img/placeYourImageHere0.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -186,7 +186,7 @@ header img {
 /* Quinta Section - Enjoy Our Food */
 
 #enjoyOurFood {
-    background-image: url("/storage/img/placeYourImageHereOur0.png");
+    background-image: url("../storage/img/placeYourImageHereOur0.png");
     width: 100vw;
     height: 100vh;
     background-position: center;
