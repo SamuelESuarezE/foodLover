@@ -123,7 +123,7 @@ header img {
     align-items: center;
     background-color: var(--color-secundary);
     width: 100vw;
-    height: 850px;
+    height: 100vh;
 }
 
 .imagenAboutUs, .imagenAboutUs img {
@@ -188,7 +188,7 @@ header img {
 #enjoyOurFood {
     background-image: url("/storage/img/placeYourImageHereOur0.png");
     width: 100vw;
-    height: 900PX;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,7 +203,7 @@ header img {
     width: 50%;
     height: 50%;
     font-family: "RobotoBlack";
-    border: 5px solid var(--color-primary);
+    border: 10px solid var(--color-primary);
     color: var(--color-font);
     justify-content: center;
     align-items: center;
@@ -225,7 +225,7 @@ header img {
 #ourMenu {
     
     width: 100vw;
-    height: 850px;
+    height: 100vh;
     padding: 40px ;
     background-color: var(--color-secundary);
     font-family: "RobotoBlack";
@@ -233,6 +233,7 @@ header img {
     flex-direction: column;
     gap: 60px;
     align-items: center;
+    justify-content: center;
 }
 
 #ourMenu h2 {
