@@ -188,8 +188,9 @@ header img {
 }
 
 #foodQuality img:nth-child(2){
-    height: 900px;
+    height: 1000px;
     position: absolute;
+    top: -150px;
     right: 0;
 }
 
